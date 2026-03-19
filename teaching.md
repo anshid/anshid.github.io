@@ -19,13 +19,9 @@ I have extensive experience teaching and mentoring students in mathematics and i
   <h4 style="margin-top: 1rem; font-size: 0.95rem; color: var(--text-main);">Subjects Handled:</h4>
   <ul style="color: var(--text-muted); margin-bottom: 1rem; padding-left: 1.5rem;">
     <li>Linear Algebra & Optimization</li>
-    <li>Calculus</li>
-    <li>Optimization Techniques for Machine Learning</li>
+    <li>Calculus <a href="{{ '/calculus' | relative_url }}" class="glow-text" style="font-weight: 600; font-size: 0.85rem; margin-left: 0.5rem;">[View Slides &rarr;]</a></li>
+    <li>Optimization Techniques for Machine Learning <a href="{{ '/optimization' | relative_url }}" class="glow-text" style="font-weight: 600; font-size: 0.85rem; margin-left: 0.5rem;">[View Slides &rarr;]</a></li>
   </ul>
-  <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
-    <a href="{{ '/calculus' | relative_url }}" class="btn btn-primary" style="padding: 0.4rem 0.8rem; font-size: 0.8rem; margin-top: 0;">Calculus Slides</a>
-    <a href="{{ '/optimization' | relative_url }}" class="btn btn-primary" style="padding: 0.4rem 0.8rem; font-size: 0.8rem; margin-top: 0;">Optimization Slides</a>
-  </div>
 </div>
 
 <div class="role-tile">
@@ -33,10 +29,11 @@ I have extensive experience teaching and mentoring students in mathematics and i
     <h3 style="color: #fff;">Learning Facilitator</h3>
     <span style="color: var(--accent-secondary); font-weight: 500;">Jul 2025 – Present</span>
   </div>
-  <p>Facilitated zero-level mathematical foundations for M.Tech students, bridging theoretical frameworks with industry-relevant applications through subject workshops.</p>
+  <p>Facilitated mathematical courses for M.Tech students, bridging theoretical frameworks with industry-relevant applications through subject workshops.</p>
   <h4 style="margin-top: 1rem; font-size: 0.95rem; color: var(--text-main);">Subjects Handled:</h4>
   <ul style="color: var(--text-muted); margin-bottom: 0; padding-left: 1.5rem;">
     <li>Mathematics Foundations for Machine Learning</li>
+    <li>Zero-level Mathematics Foundations</li>
   </ul>
 </div>
 
@@ -48,13 +45,13 @@ I have extensive experience teaching and mentoring students in mathematics and i
   <p>Contributed to industry-partnered foundational mathematics courses. Conducted in-person bootcamps at manufacturing plants and utilized interactive tools like Desmos and Mentimeter.</p>
   <h4 style="margin-top: 1rem; font-size: 0.95rem; color: var(--text-main);">Subjects Handled:</h4>
   <ul style="color: var(--text-muted); margin-bottom: 0; padding-left: 1.5rem;">
-    <li>General Mathematics 1 (BSc Pharmaceuticals)</li>
+    <li>General Mathematics 1</li>
   </ul>
 </div>
 
 <!-- BITS Pilani -->
 <div class="section-title">
-  <h2 style="color: var(--accent-primary);">BITS Pilani (Department of Mathematics)</h2>
+  <h2 style="color: var(--accent-primary);">BITS Pilani, Hyderabad Campus (Department of Mathematics)</h2>
 </div>
 
 <div class="role-tile">
@@ -78,12 +75,12 @@ I have extensive experience teaching and mentoring students in mathematics and i
 
 <!-- Stanford University -->
 <div class="section-title">
-  <h2 style="color: var(--accent-primary);">Stanford University</h2>
+  <h2 style="color: var(--accent-primary);">Code in Place-Stanford University</h2>
 </div>
 
 <div class="role-tile">
   <div class="role-header">
-    <h3 style="color: #fff;">Section Leader, Code in Place</h3>
+    <h3 style="color: #fff;">Section Leader</h3>
     <span style="color: var(--accent-secondary); font-weight: 500;">2025</span>
   </div>
   <p>Mentored a global cohort of learners through interactive and project-based programming instruction.</p>
@@ -103,11 +100,12 @@ I have extensive experience teaching and mentoring students in mathematics and i
     <h3 style="color: #fff;">CLM Instructor</h3>
     <span style="color: var(--accent-secondary); font-weight: 500;">2023 – 2025</span>
   </div>
-  <p>Mentored international students remotely through customized learning plans and advanced mathematical reasoning modules.</p>
-  <h4 style="margin-top: 1rem; font-size: 0.95rem; color: var(--text-main);">Subjects Handled:</h4>
+  <p>Mentored international students remotely for competitive exams through customized learning plans and advanced mathematical reasoning modules.</p>
+  <!--<h4 style="margin-top: 1rem; font-size: 0.95rem; color: var(--text-main);">Subjects Handled:</h4>-->
   <ul style="color: var(--text-muted); margin-bottom: 0; padding-left: 1.5rem;">
-    <li>Advanced Mathematical Reasoning</li>
-    <li>Analytical Problem Solving</li>
+    <li>American Mathematics Competitions (AMC)</li>
+    <li>Hong Kong International Mathematical Olympiad (HKIMO)</li>
+    <li>Centre for Education in Mathematics and Computing (CEMC) Exams</li>
   </ul>
 </div>
 
@@ -122,7 +120,7 @@ I have extensive experience teaching and mentoring students in mathematics and i
     <span style="color: var(--accent-secondary); font-weight: 500;">2020 – 2021</span>
   </div>
   <p>Mentored undergraduate students in national workshops focusing on conceptual clarity and rigorous problem formulation.</p>
-  <h4 style="margin-top: 1rem; font-size: 0.95rem; color: var(--text-main);">Subjects Handled:</h4>
+  <!--<h4 style="margin-top: 1rem; font-size: 0.95rem; color: var(--text-main);">Subjects Handled:</h4>-->
   <ul style="color: var(--text-muted); margin-bottom: 0; padding-left: 1.5rem;">
     <li>Mathematics Training and Talent Search (MTTS 2021)</li>
     <li>Online Foundation Course in Mathematics (OFCM-2020)</li>
