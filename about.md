@@ -9,7 +9,7 @@ title: About Me
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 4rem;">
   <a href="mailto:anshidaboobackerk@gmail.com" class="btn btn-primary">✉ Email Me</a>
-  <a href="https://www.linkedin.com/in/anshidaboobacker" target="_blank" class="btn" style="border: 1px solid var(--glass-border); color: var(--text-main);">in LinkedIn</a>
+  <a href="https://www.linkedin.com/in/anshidaboobacker/" target="_blank" class="btn" style="border: 1px solid var(--glass-border); color: var(--text-main);">in LinkedIn</a>
   <a href="#" class="btn" style="border: 1px dashed var(--accent-primary); color: var(--accent-primary);">📄 Download ML Engineer CV</a>
   <a href="#" class="btn" style="border: 1px dashed var(--accent-secondary); color: var(--accent-secondary);">📄 Download Teaching CV</a>
 </div>
@@ -69,7 +69,7 @@ title: About Me
 <div class="role-tile">
   <div class="role-header">
     <h3 style="color: #fff;">Master's Degree, Mathematics</h3>
-    <span style="color: var(--accent-secondary); font-weight: 500;">2018 – 2020</span>
+    <span style="color: var(--accent-secondary); font-weight: 500;">Aug 2018 – Oct 2020</span>
   </div>
   <p style="color: var(--text-main); font-weight: 500;">University of Hyderabad</p>
 </div>
