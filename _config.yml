@@ -1,8 +1,8 @@
 title: Anshid
 description: Machine Learning Engineer with Mathematical Thinking
-theme: minima
 
 header_pages:
   - about.md
   - projects.md
+  - teaching.md
   - blog.md

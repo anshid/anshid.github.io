@@ -3,45 +3,38 @@ layout: home
 title: Home
 ---
 
-# Hi, I'm Anshid
+<div class="hero">
+  <h1>Hi, I'm <span class="glow-text">Anshid</span></h1>
+  <p>Mathematics Researcher → Machine Learning Engineer.<br>I build machine learning systems grounded in mathematical thinking.</p>
+  <div style="display: flex; gap: 1rem;">
+    <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary">View Projects</a>
+    <a href="{{ '/about/' | relative_url }}" class="btn" style="border: 1px solid var(--glass-border); color: var(--text-main);">About Me</a>
+  </div>
+</div>
 
-Mathematics Researcher → Machine Learning Engineer
+<div class="section-title">
+  <h2>Featured Architecture</h2>
+</div>
 
-I build machine learning systems grounded in mathematical thinking.
+<div class="modern-grid">
+  <div class="modern-card">
+    <h3>Placement Predictor</h3>
+    <div class="card-tags">
+      <span class="tag">Machine Learning</span>
+      <span class="tag">Pipeline</span>
+      <span class="tag">Python</span>
+    </div>
+    <p>An end-to-end machine learning pipeline that predicts student placement outcomes with feature engineering and rigorous evaluation.</p>
+    <a href="https://github.com/anshid/placement-predictor-ml" target="_blank" class="glow-text" style="font-weight: 600;">View Repository &rarr;</a>
+  </div>
 
----
-
-## Featured Projects
-
-### Placement Predictor ML System
-Predicts student placements using machine learning pipelines.
-
-[View Project](projects)
-
----
-
-### Time Series Forecasting
-Neural network models for forecasting sequential data.
-
----
-
-### Reinforcement Learning Blackjack Agent
-An agent that learns blackjack strategy through reinforcement learning.
-
----
-
-## Skills
-
-- Machine Learning
-- Python
-- Deep Learning
-- Data Science
-- Mathematical Modeling
-- Statistics
-
----
-
-## Links
-
-GitHub: https://github.com/anshid  
-LinkedIn: https://linkedin.com/in/YOURPROFILE
+  <div class="modern-card">
+    <h3>RL Blackjack Agent</h3>
+    <div class="card-tags">
+      <span class="tag">Reinforcement Learning</span>
+      <span class="tag">AI</span>
+    </div>
+    <p>An intelligent agent trained via reinforcement learning algorithms to discover and execute optimal blackjack strategies.</p>
+    <a href="{{ '/projects/' | relative_url }}" class="glow-text" style="font-weight: 600;">Read More &rarr;</a>
+  </div>
+</div>
