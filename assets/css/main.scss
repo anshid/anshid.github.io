@@ -298,3 +298,37 @@ footer {
 .prose ul, .prose ol { margin-bottom: 1.5rem; padding-left: 1.5rem; }
 .prose li { margin-bottom: 0.5rem; }
 .prose hr { border: none; border-top: 1px solid var(--glass-border); margin: 3rem 0; }
+
+/* Custom Tiles */
+.role-tile {
+  background: var(--bg-secondary);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.role-tile:hover {
+  transform: translateX(4px);
+  border-color: rgba(255,255,255,0.2);
+}
+
+.role-tile h3 {
+  margin-bottom: 0.25rem;
+}
+
+.role-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .role-header {
+    flex-direction: column;
+  }
+}
+
