@@ -28,13 +28,5 @@ title: Home
     <a href="https://github.com/anshid/placement-predictor-ml" target="_blank" class="glow-text" style="font-weight: 600;">View Repository &rarr;</a>
   </div>
 
-  <div class="modern-card">
-    <h3>RL Blackjack Agent</h3>
-    <div class="card-tags">
-      <span class="tag">Reinforcement Learning</span>
-      <span class="tag">AI</span>
-    </div>
-    <p>An intelligent agent trained via reinforcement learning algorithms to discover and execute optimal blackjack strategies.</p>
-    <a href="{{ '/projects/' | relative_url }}" class="glow-text" style="font-weight: 600;">Read More &rarr;</a>
-  </div>
+  
 </div>

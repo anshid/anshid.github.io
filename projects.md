@@ -20,16 +20,7 @@ Below is a directory of my engineering work, separated by scale and intent.
     <a href="https://github.com/anshid/placement-predictor-ml" target="_blank" class="btn btn-primary" style="text-align: center; margin-top: auto;">Source Code</a>
   </div>
 
-  <div class="modern-card">
-    <h3>Time Series Forecasting</h3>
-    <div class="card-tags">
-      <span class="tag">TensorFlow</span>
-      <span class="tag">LSTM</span>
-      <span class="tag">Neural Networks</span>
-    </div>
-    <p>Forecasting sequential data using deep neural networks. Built continuous windowed datasets to train dense and recurrent (LSTM) models for high-accuracy temporal predictions.</p>
-    <a href="#" class="btn" style="border: 1px solid var(--glass-border); text-align: center; margin-top: auto; color: var(--text-main);">Details coming soon</a>
-  </div>
+  
   
   <!-- Add new Big Projects here -->
 </div>
@@ -38,23 +29,53 @@ Below is a directory of my engineering work, separated by scale and intent.
   <h2 style="color: var(--accent-secondary);">Toy Projects & Utilities</h2>
 </div>
 
-<div class="modern-grid">
+
+
+  <div class="modern-grid">
   <div class="modern-card">
-    <h3>RL Blackjack Agent</h3>
+    <h3>Predictive Modeling for Agriculture</h3>
     <div class="card-tags">
-      <span class="tag">Reinforcement Learning</span>
-      <span class="tag">Gymnasium</span>
+      <span class="tag">Scikit-learn</span>
+      <span class="tag">Pandas</span>
+      <span class="tag">Feature Selection</span>
     </div>
-    <p>A classic toy problem solved. Trained a reinforcement learning agent from scratch to play blackjack and discover optimal strategies through self-play and epsilon-greedy exploration.</p>
-    <a href="#" class="btn" style="border: 1px solid var(--glass-border); text-align: center; margin-top: auto; color: var(--text-main);">View Agent</a>
+    <p>Identified the single soil feature that best predicts crop type using classification models. Built a simple predictive model to guide farmers on optimal soil metrics due to cost constraints.</p>
   </div>
 
-  <!-- Placeholders for user's other toy projects -->
-  <div class="modern-card" style="border: 1px dashed var(--glass-border); background: transparent;">
-    <h3 style="color: var(--text-muted);">Your Next Toy Project</h3>
+  <div class="modern-card">
+    <h3>Netflix Movies Data Analysis</h3>
     <div class="card-tags">
-      <span class="tag">Placeholder</span>
+      <span class="tag">Python</span>
+      <span class="tag">Matplotlib/Seaborn</span>
+      <span class="tag">EDA</span>
     </div>
-    <p>Ready to be added. (e.g. A small CLI tool, a data visualization, or a scraper.)</p>
+    <p>Exploratory data analysis of a Netflix dataset to find 1990s movie duration patterns and genre trends. Provided insights on film length trends to guide production decisions.</p>
+  </div>
+
+  <div class="modern-card">
+    <h3>OpenAI API Chatbot</h3>
+    <div class="card-tags">
+      <span class="tag">OpenAI API</span>
+      <span class="tag">Prompt Engineering</span>
+    </div>
+    <p>An AI Travel Assistant prototype for Paris utilizing structured prompts for deterministic responses, including distance calculations and tourist information queries.</p>
+  </div>
+
+  <div class="modern-card">
+    <h3>Data Storytelling: College Majors</h3>
+    <div class="card-tags">
+      <span class="tag">Data Visualization</span>
+      <span class="tag">Narrative Analytics</span>
+    </div>
+    <p>Explored employment and salary trends across college majors. Built narrative visualizations to transform raw graduate outcome data into actionable insights for stakeholders.</p>
+  </div>
+
+  <div class="modern-card">
+    <h3>Remote Work Case Study</h3>
+    <div class="card-tags">
+      <span class="tag">Business Analytics</span>
+      <span class="tag">Python</span>
+    </div>
+    <p>Translated business questions into analytical models to evaluate a company's remote work policy, providing recommendations on how policies impact productivity and employee outcomes.</p>
   </div>
 </div>
