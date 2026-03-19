@@ -19,8 +19,8 @@ I have extensive experience teaching and mentoring students in mathematics and i
   <h4 style="margin-top: 1rem; font-size: 0.95rem; color: var(--text-main);">Subjects Handled:</h4>
   <ul style="color: var(--text-muted); margin-bottom: 1rem; padding-left: 1.5rem;">
     <li>Linear Algebra & Optimization</li>
-    <li>Calculus <a href="{{ '/calculus' | relative_url }}" class="glow-text" style="font-weight: 600; font-size: 0.85rem; margin-left: 0.5rem;">[View Slides &rarr;]</a></li>
-    <li>Optimization Techniques for Machine Learning <a href="{{ '/optimization' | relative_url }}" class="glow-text" style="font-weight: 600; font-size: 0.85rem; margin-left: 0.5rem;">[View Slides &rarr;]</a></li>
+    <li>Calculus <a href="{{ '/courses/calculus/' | relative_url }}" class="glow-text" style="font-weight: 600; font-size: 0.85rem; margin-left: 0.5rem;">[View Slides &rarr;]</a></li>
+    <li>Optimization Techniques for Machine Learning <a href="{{ '/courses/optimization/' | relative_url }}" class="glow-text" style="font-weight: 600; font-size: 0.85rem; margin-left: 0.5rem;">[View Slides &rarr;]</a></li>
   </ul>
 </div>
 
