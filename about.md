@@ -8,10 +8,31 @@ title: About Me
 </div>
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 4rem;">
-  <a href="mailto:anshidaboobackerk@gmail.com" class="btn btn-primary">✉ Email Me</a>
-  <a href="https://www.linkedin.com/in/anshidaboobacker/" target="_blank" class="btn" style="border: 1px solid var(--glass-border); color: var(--text-main);">in LinkedIn</a>
-  <a href="#" class="btn" style="border: 1px dashed var(--accent-primary); color: var(--accent-primary);">📄 Download ML Engineer CV</a>
-  <a href="#" class="btn" style="border: 1px dashed var(--accent-secondary); color: var(--accent-secondary);">📄 Download Teaching CV</a>
+  
+  <!-- Email -->
+  <a href="mailto:anshidaboobackerk@gmail.com" class="btn" style="background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); color: #fff; display: inline-flex; align-items: center; gap: 0.5rem;">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    Email Me
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/anshidaboobacker" target="_blank" class="btn" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); color: #fff; display: inline-flex; align-items: center; gap: 0.5rem;">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+    LinkedIn
+  </a>
+
+  <!-- ML CV -->
+  <a href="#" class="btn" style="background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.3); color: #fff; display: inline-flex; align-items: center; gap: 0.5rem;">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="12" y1="18" x2="12" y2="12"></line><line x1="9" y1="15" x2="15" y2="15"></line></svg>
+    ML Engineer CV
+  </a>
+
+  <!-- Teaching CV -->
+  <a href="#" class="btn" style="background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.3); color: #fff; display: inline-flex; align-items: center; gap: 0.5rem;">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="12" y1="18" x2="12" y2="12"></line><line x1="9" y1="15" x2="15" y2="15"></line></svg>
+    Teaching CV
+  </a>
+
 </div>
 
 <div class="section-title">
