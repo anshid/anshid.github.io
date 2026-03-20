@@ -144,8 +144,8 @@ title: Home
 </div>
 
 <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 4rem;">
-  <img src="https://github-readme-stats.vercel.app/api?username=anshid&show_icons=true&theme=radical&hide_border=true&bg_color=1a1a2e" alt="Anshid's GitHub Stats" style="border-radius: 8px; max-width: 100%;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshid&layout=compact&theme=radical&hide_border=true&bg_color=1a1a2e" alt="Top Languages" style="border-radius: 8px; max-width: 100%;">
+  <img src="https://github-readme-stats.vercel.app/api?username=anshid&show_icons=true&theme=radical&hide_border=true&bg_color=1a1a2e&hide_rank=true" alt="Anshid's GitHub Stats" style="border-radius: 8px; max-width: 100%;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshid&layout=compact&theme=radical&hide_border=true&bg_color=1a1a2e&hide=jupyter%20notebook" alt="Top Languages" style="border-radius: 8px; max-width: 100%;">
 </div>
 
 <div class="section-title">
