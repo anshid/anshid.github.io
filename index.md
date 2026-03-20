@@ -83,6 +83,7 @@ title: Home
   </div>
 </div>
 
+{% comment %}
 <div class="section-title">
   <h2 style="color: var(--accent-primary);">ML System Design</h2>
 </div>
@@ -138,6 +139,7 @@ title: Home
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true, theme: 'dark', securityLevel: 'loose' });
 </script>
+{% endcomment %}
 
 <div class="section-title">
   <h2 style="color: var(--accent-primary);">GitHub Activity</h2>
