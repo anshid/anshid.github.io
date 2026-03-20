@@ -143,10 +143,102 @@ title: Home
   <h2 style="color: var(--accent-primary);">GitHub Activity</h2>
 </div>
 
-<div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 4rem;">
-  <img src="https://github-readme-stats.vercel.app/api?username=anshid&show_icons=true&theme=radical&hide_border=true&bg_color=1a1a2e&hide_rank=true" alt="Anshid's GitHub Stats" style="border-radius: 8px; max-width: 100%;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshid&layout=compact&theme=radical&hide_border=true&bg_color=1a1a2e&hide=jupyter%20notebook" alt="Top Languages" style="border-radius: 8px; max-width: 100%;">
+<div id="github-native-stats" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 4rem;">
+  <!-- Loading state -->
+  <div style="width: 380px; background: #1a1a2e; border-radius: 8px; padding: 2rem; text-align: center; border: 1px solid var(--glass-border);">
+    <p style="color: var(--text-muted); margin: 0;">Loading API Data...</p>
+  </div>
 </div>
+
+<script>
+  async function loadGitHubStats(username) {
+    const container = document.getElementById('github-native-stats');
+    try {
+      const [userRes, reposRes] = await Promise.all([
+        fetch(`https://api.github.com/users/${username}`),
+        fetch(`https://api.github.com/users/${username}/repos?per_page=100&sort=pushed`)
+      ]);
+      
+      if (!userRes.ok || !reposRes.ok) throw new Error('API Rate Limit or Network Error');
+      
+      const user = await userRes.json();
+      const repos = await reposRes.json();
+      
+      let totalStars = 0;
+      let langCounts = {};
+      
+      repos.forEach(repo => {
+        totalStars += repo.stargazers_count;
+        if (repo.language && repo.language !== 'Jupyter Notebook') {
+          langCounts[repo.language] = (langCounts[repo.language] || 0) + 1;
+        }
+      });
+      
+      const sortedLangs = Object.entries(langCounts)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 5);
+        
+      const totalLangs = Object.values(langCounts).reduce((a, b) => a + b, 0) || 1;
+      
+      const statsCard = `
+        <div style="width: 380px; background: #1a1a2e; border-radius: 8px; padding: 1.5rem; text-align: left; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <h3 style="color: #ff5e7e; font-size: 1.1rem; margin-bottom: 1.2rem; font-weight: 600;">${user.name || username}'s GitHub Stats</h3>
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.8rem; color: #a9fef7; font-size: 0.95rem;">
+            <span style="color: #e4e2e2; font-weight: 500;">⭐ Total Stars Earned:</span> <strong>${totalStars}</strong>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.8rem; color: #a9fef7; font-size: 0.95rem;">
+            <span style="color: #e4e2e2; font-weight: 500;">📦 Public Repositories:</span> <strong>${user.public_repos}</strong>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.8rem; color: #a9fef7; font-size: 0.95rem;">
+            <span style="color: #e4e2e2; font-weight: 500;">👥 Followers:</span> <strong>${user.followers}</strong>
+          </div>
+        </div>
+      `;
+      
+      let langsHtmlList = '';
+      const colors = ['#f1e05a', '#3572A5', '#e34c26', '#563d7c', '#b07219']; // Standard mapped lang colors
+      
+      sortedLangs.forEach(([lang, count], index) => {
+        const percentage = ((count / totalLangs) * 100).toFixed(1);
+        const color = colors[index % colors.length];
+        langsHtmlList += `
+          <div style="margin-bottom: 0.8rem;">
+            <div style="display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 0.3rem;">
+              <span style="color: #e4e2e2; display: flex; align-items: center; gap: 6px;">
+                <span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: ${color};"></span>
+                ${lang}
+              </span>
+              <span style="color: #a9fef7;">${percentage}%</span>
+            </div>
+            <div style="background: rgba(255,255,255,0.1); height: 8px; border-radius: 4px; overflow: hidden;">
+              <div style="background: ${color}; height: 100%; width: ${percentage}%;"></div>
+            </div>
+          </div>
+        `;
+      });
+      
+      const langsCard = `
+        <div style="width: 380px; background: #1a1a2e; border-radius: 8px; padding: 1.5rem; text-align: left; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <h3 style="color: #ff5e7e; font-size: 1.1rem; margin-bottom: 1.2rem; font-weight: 600;">Most Used Languages</h3>
+          ${langsHtmlList}
+        </div>
+      `;
+      
+      container.innerHTML = statsCard + langsCard;
+      
+    } catch (error) {
+      console.error("Live GitHub API fail: ", error);
+      container.innerHTML = `
+        <div style="width: 100%; text-align: center; color: var(--text-muted);">
+          <p>Failed to load live GitHub data directly.</p>
+          <a href="https://github.com/${username}" target="_blank" class="glow-text">View Profile on GitHub &rarr;</a>
+        </div>
+      `;
+    }
+  }
+  
+  loadGitHubStats('anshid');
+</script>
 
 <div class="section-title">
   <h2 style="color: var(--accent-primary);">Teaching & Mathematical Foundations</h2>
