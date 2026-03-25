@@ -59,7 +59,6 @@ a:hover {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: inline-block;
 }
 
 /* Header */
@@ -81,7 +80,7 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   padding: 0 2rem;
 }
 
