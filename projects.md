@@ -65,6 +65,16 @@ Below is a directory of my engineering work, separated by scale and intent. Clic
     <p>Translated HR telemetry and productivity markers into explicit K-Means workforce segments to define optimal remote policies without relying on biased anecdotes.</p>
     <a href="{{ '/projects/ba-remote-work/' | relative_url }}" class="glow-text" style="font-weight: 600; margin-top: auto; display: inline-block;">View Project Details &rarr;</a>
   </div>
+
+  <div class="modern-card">
+    <h3>Personal Finance Automation</h3>
+    <div class="card-tags">
+      <span class="tag">Google Sheets</span>
+      <span class="tag">Data Engineering</span>
+    </div>
+    <p>Designed a dynamic dashboard standardizing transaction data from unconstrained forms to visualize metrics, trends, and financial distributions.</p>
+    <a href="{{ '/projects/da-personal-finance/' | relative_url }}" class="glow-text" style="font-weight: 600; margin-top: auto; display: inline-block;">View Project Details &rarr;</a>
+  </div>
 </div>
 
 <div class="section-title" style="margin-top: 4rem;">
@@ -80,5 +90,25 @@ Below is a directory of my engineering work, separated by scale and intent. Clic
     </div>
     <p>Constructed a deterministic Travel Assistant constrained heavily via few-shot injection to guarantee structured JSON output routing queries locally in Paris.</p>
     <a href="{{ '/projects/ai-chatbot/' | relative_url }}" class="glow-text" style="font-weight: 600; margin-top: auto; display: inline-block;">View Project Details &rarr;</a>
+  </div>
+
+  <div class="modern-card">
+    <h3>AI Book Scanner Automation</h3>
+    <div class="card-tags">
+      <span class="tag">Gemini Vision API</span>
+      <span class="tag">Pipeline Engineering</span>
+    </div>
+    <p>Automated visual logging building a robust pipeline that extracts structured JSON metadata from shelf imagery transmitted via Telegram.</p>
+    <a href="{{ '/projects/ai-book-scanner/' | relative_url }}" class="glow-text" style="font-weight: 600; margin-top: auto; display: inline-block;">View Project Details &rarr;</a>
+  </div>
+
+  <div class="modern-card">
+    <h3>Goal Finisher GPT</h3>
+    <div class="card-tags">
+      <span class="tag">Prompt Engineering</span>
+      <span class="tag">Generative AI</span>
+    </div>
+    <p>Developed a specialized conversational agent strictly engineered to enforce temporal guardrails and step-by-step guidance for human task completion.</p>
+    <a href="{{ '/projects/ai-goal-finisher/' | relative_url }}" class="glow-text" style="font-weight: 600; margin-top: auto; display: inline-block;">View Project Details &rarr;</a>
   </div>
 </div>
