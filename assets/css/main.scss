@@ -180,7 +180,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   min-height: 60vh;
   animation: fadeIn 1s ease-out;
 }
@@ -189,6 +189,7 @@ footer {
   font-size: 4rem;
   line-height: 1.1;
   margin-bottom: 1rem;
+  text-wrap: balance;
 }
 
 .hero p {
@@ -196,6 +197,7 @@ footer {
   color: var(--text-muted);
   max-width: 600px;
   margin-bottom: 2rem;
+  text-wrap: balance;
 }
 
 /* Grids and Cards */
